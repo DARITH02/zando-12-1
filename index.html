@@ -13,42 +13,108 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  dskflks;dfsa;dfk
+
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #000;
+      font-family:
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+
   <body>
     <nav class="navbar">
-      <div class="container-width nav">
-        <div class="menu-left">
-          <ul>
-            <li>Women</li>
-            <li>Men</li>
-            <li>Boys</li>
-            <li>Girls</li>
-          </ul>
-        </div>
+      <div class="shadow">
+        <div class="container-width nav">
+          <div class="menu-left">
+            <ul>
+              <li>Women</li>
+              <li>Men</li>
+              <li>Boys</li>
+              <li>Girls</li>
+            </ul>
+          </div>
 
-        <div class="menu-center">
-          <img
-            src="https://zandokh.com/images/ZANDO-NEW-LOGO-2025.png"
-            alt=""
-          />
-        </div>
+          <div class="menu-center">
+            <img
+              src="https://zandokh.com/images/ZANDO-NEW-LOGO-2025.png"
+              alt=""
+            />
+          </div>
 
-        <div class="menu-right">
-          <ul>
-            <li>
-              <div class="search">
-                <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input type="text" />
-              </div>
-            </li>
-            <li><i class="fa-regular fa-bell"></i></li>
-            <li><i class="fa-regular fa-heart"></i></li>
-            <li><i class="fa-solid fa-bag-shopping"></i></li>
-            <li>Login</li>
-            <li>register</li>
-          </ul>
+          <div class="menu-right">
+            <ul>
+              <li>
+                <div class="search">
+                  <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                  <input type="text" />
+                </div>
+              </li>
+              <li><i class="fa-regular fa-bell"></i></li>
+              <li><i class="fa-regular fa-heart"></i></li>
+              <li><i class="fa-solid fa-bag-shopping"></i></li>
+              <li>Login</li>
+              <li>register</li>
+            </ul>
+          </div>
         </div>
       </div>
+
+      <div class="container-width" style="background-color: black">1</div>
     </nav>
+
+    <!-- hero section -->
+
+    <section class="container-width hero">
+      
+      <swiper-container class="mySwiper">
+        <swiper-slide>Slide 1</swiper-slide>
+        <swiper-slide>Slide 2</swiper-slide>
+        <swiper-slide>Slide 3</swiper-slide>
+        <swiper-slide>Slide 4</swiper-slide>
+        <swiper-slide>Slide 5</swiper-slide>
+        <swiper-slide>Slide 6</swiper-slide>
+        <swiper-slide>Slide 7</swiper-slide>
+        <swiper-slide>Slide 8</swiper-slide>
+        <swiper-slide>Slide 9</swiper-slide>
+      </swiper-container>
+
+    </section>
   </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>
