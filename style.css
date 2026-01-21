@@ -134,7 +134,7 @@ a {
   gap: 20px;
 }
 .hero-btn button {
-  padding: 1.3rem 2.5rem;
+  /* padding: 1.3rem 2.5rem; */
   border-radius: 0.5rem;
   border: black 2px solid;
   font-size: 2rem;
