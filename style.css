@@ -174,7 +174,7 @@ a {
 /* main card */
 .main-card {
   /* height: 700px; */
-  background-color: red;
+  /* background-color: red; */
 }
 .header-main-card {
   /* background-color: blueviolet; */
@@ -191,7 +191,7 @@ a {
   color: black;
 }
 .body-main-card {
-  background-color: aqua;
+  /* background-color: aqua; */
   height: auto;
   display: flex;
   gap: 1%;
@@ -200,11 +200,12 @@ a {
 .cards {
   width: 24.25%;
   height: 450px;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
 }
 .img-card {
   height: 75%;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
+  position: relative;
 }
 .img-card img {
   width: 100%;
@@ -212,20 +213,42 @@ a {
 }
 .card-body {
   height: 25%;
-  background-color: coral;
+  /* background-color: coral; */
   display: flex;
   padding: 1.3rem;
 }
 .card-text {
   width: 85%;
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
 }
 .price {
   display: block;
+  font-size: 1.6rem;
 }
 .price span:first-child {
   color: red;
+  font-weight: bold;
 }
 .price span:last-child {
   text-decoration: line-through;
+}
+.card-text p {
+  font-size: 1.5rem;
+  margin-top: 0.8rem;
+}
+.dis {
+  position: absolute;
+  left: 6%;
+  top: 5%;
+
+  background: red;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.5rem;
+}
+.brand-name {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg)
 }
